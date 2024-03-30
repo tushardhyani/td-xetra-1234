@@ -1,0 +1,15 @@
+git clone
+pipenv install
+pipenv shell
+pip list
+
+In git bash
+as we were in main branch
+we do
+git checkout -b develop
+git status
+git add *
+git status
+git commit -m "initial version with pipfile"
+git push
+git push --set-upstream origin develop
